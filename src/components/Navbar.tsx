@@ -36,7 +36,7 @@ const Navbar = () => {
                 Contact
               </a>
             </li>
-            <li className="nav-item dropdown">
+            {/* <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
                 href="#"
@@ -63,7 +63,7 @@ const Navbar = () => {
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -1,0 +1,77 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.home {
+    /* background-color: green; */
+}
+
+
+.App {
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+
+.game {
+    max-width: calc(3*100px);
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.status {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 45px;
+    font-weight: bold;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.cell:hover {
+    background-color: #8f8d8d;
+}
+
+
+button[disabled=disabled],
+button:disabled {
+    color: black;
+}
+
+.drag-canvas {
+    background-color: red;
+    height: 100%;
+    background: #0f0;
+    min-height: 100vh;
+}
+
+.note {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: yellow;
+    overflow: scroll;
+    cursor: move;
+}
