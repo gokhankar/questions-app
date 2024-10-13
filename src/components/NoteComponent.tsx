@@ -1,35 +1,36 @@
-import React from "react";
+// import React from "react";
 
-export type Note = {
-  id: number;
-  text: string;
-};
+// export type Note = {
+//   id: number;
+//   text: string;
+// };
 
-interface Props {
-  item: Note;
-  initialPosition: { x: number; y: number };
-  // onMouseDown: void;
-}
+// interface Props {
+//   item: Note;
+//   initialPosition: { x: number; y: number };
+//   ref: React.MutableRefObject<never>;
+//   onMouseDown: (e: React.MouseEvent) => void;
+// }
 
-const NoteComponent = ({
-  item,
-  initialPosition,
-}: // onMouseDown
-Props) => {
-  console.log();
-  return (
-    <div
-      className="note"
-      // onMouseDown={(e:React.MouseEvent) => onMouseDown}
-      style={{
-        position: "absolute",
-        left: `${initialPosition.x}px`,
-        top: `${initialPosition.y}px`,
-      }}
-    >
-      <p> &#128204; {item.text}</p>
-    </div>
-  );
-};
+// const NoteComponent = ({
+//   item,
+//   initialPosition,
+// }: // onMouseDown
+// Props) => {
+//   console.log();
+//   return (
+//     <div
+//       className="note"
+//       // onMouseDown={(e:React.MouseEvent) => onMouseDown}
+//       style={{
+//         position: "absolute",
+//         left: `${initialPosition.x}px`,
+//         top: `${initialPosition.y}px`,
+//       }}
+//     >
+//       <p> &#128204; {item.text}</p>
+//     </div>
+//   );
+// };
 
-export default NoteComponent;
+// export default NoteComponent;

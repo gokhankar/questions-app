@@ -2,8 +2,8 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+// import About from "./pages/About";
+// import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Question01 from "./pages/Question01";
 import Question02 from "./pages/Question02";
@@ -23,13 +23,13 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="question01" element={<Question01 />} />
-        <Route path="question02" element={<Question02 />} />
-        <Route path="question03" element={<Question03 />} />
+        <Route path="q1" element={<Question01 />} />
+        <Route path="q2" element={<Question02 />} />
+        <Route path="q3" element={<Question03 />} />
         <Route path="tictactoe" element={<TicTacToe />} />
         <Route path="dragnotes" element={<DragNotes />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
+        {/* <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} /> */}
       </Routes>
     </div>
   );

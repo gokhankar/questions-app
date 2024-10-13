@@ -27,13 +27,28 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">
-                About
+              <a className="nav-link" href="/q1">
+                Q1
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">
-                Contact
+              <a className="nav-link" href="/q2">
+                Q2
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/q3">
+                Q3
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/tictactoe">
+                TicTacToe
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/dragnotes">
+                DragNotes
               </a>
             </li>
             {/* <li className="nav-item dropdown">
