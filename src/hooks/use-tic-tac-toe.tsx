@@ -33,7 +33,7 @@ const useTicTacToe = () => {
       if (checker(xList, WINNING_PATTERNS[i])) win("X");
       if (checker(yList, WINNING_PATTERNS[i])) win("Y");
     }
-    if (!board.includes(null) && !board.includes("."))
+    if (!board.includes(null) && !board.includes(".") && !winMessage)
       setWinMessage("Game ended in a draw");
   };
   const handleClick = (cell: string, index: number) => {
